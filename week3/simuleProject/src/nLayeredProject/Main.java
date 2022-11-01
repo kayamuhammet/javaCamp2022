@@ -18,23 +18,20 @@ import nLayeredProject.entities.Instructor;
 public class Main {
     public static void main(String[] args) throws Exception {
         Category category1 = new Category(0,"Programming");
-        Category category2 = new Category(1,"Digital Marketing");
-        Category category3 = new Category(2,"Design");
-        Category category4 = new Category(3,"Personal Development");
 
-        Instructor instructor1 = new Instructor("11111111111","Muhammet Kaya");
-        Instructor instructor2 = new Instructor("22222222222","March Mathieu");
-        Instructor instructor3 = new Instructor("33333333333","Calvin Klein");
-        Instructor instructor4 = new Instructor("44444444444","Robin Sharma");
 
-        Course course1 = new Course(0,"Java Programming",249.99, category1,instructor1);
-        Course course2 = new Course(1,"Digital Marketing 101",59.99,category2,instructor2);
-        Course course3 = new Course(2,"Web Design 101",59.99,category3,instructor3);
-        Course course4 = new Course(3,"Leadership 101",59.99,category4,instructor4);
+        Instructor instructor1 = new Instructor("Engin Demirog");
 
-        Instructor[] instructors = {instructor1,instructor2,instructor3,instructor4};
-        Course[] courses = {course1,course2,course3,course4};
-        Category[] categories = {category1,category2,category3,category4};
+        Course course1 = new Course(0,"Java-React",0.00, category1,instructor1);
+        Course course2 = new Course(1,"C#-Angular",0.00,category1,instructor1);
+        Course course3 = new Course(2,"Javascript",0.00,category1,instructor1);
+        Course course4 = new Course(3,"Senior .NET",0.00,category1,instructor1);
+        Course course5 = new Course(4,"Java 2022",0.00,category1,instructor1);
+        Course course6 = new Course(5,"Temel Kurs",0.00,category1,instructor1);
+
+        Instructor[] instructors = {instructor1};
+        Course[] courses = {course1,course2,course3,course4,course5,course6};
+        Category[] categories = {category1};
         Logger[] loggers  = {new DatabaseLogger(), new FileLogger(), new MailLogger()};
 
         CategoryManager categoryManager = new CategoryManager(new HibernateCategoryDao(), categories, loggers);

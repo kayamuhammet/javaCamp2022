@@ -1,15 +1,15 @@
-#Veri Tabana Tasarım Dersi
+# Veri Tabana Tasarım Dersi
 
-##Homework3-6
-
-
-
->Veri Tabanı Tasarım [Oynayma Listesi](https://www.youtube.com/playlist?list=PLqG356ExoxZXZQt9edXkCS-_dunCq-bXm)
-
->Gereksinim: ABC Bankası olarak müşterilerimizin takibini yapabilmeliyiz.
+## Homework3-6
 
 
-###Kabul Kriterleri:
+
+> Veri Tabanı Tasarım [Oynayma Listesi](https://www.youtube.com/playlist?list=PLqG356ExoxZXZQt9edXkCS-_dunCq-bXm)
+
+> Gereksinim: ABC Bankası olarak müşterilerimizin takibini yapabilmeliyiz.
+
+
+### Kabul Kriterleri:
 
     • 1)İki tip müşterimiz mevcut, Gerçek Müşteriler, Tüzel Müşteriler.
     • 2)Gerçek Müşteri, MüşteriNo, Ad, Soyad, TcKimlikNo alanlarına sahiptir.
@@ -20,6 +20,8 @@
     • 7)Bir kişinin veya kurumun bankamızın müşterisi olabilmesi için çeşitli kanallar mevcuttur.
       (İnternet, Şube vb.) Müşterinin hangi kanaldan bankamıza ilk kez katıldığı bilgisini de tutmak istiyoruz.
 
-#Tasarım
-![](Veri_Tabanı_Tasarım-EnginDemirog.png)
+# Tasarım
+![](week3/hw3-6/Veri_Tabanı_Tasarım-EnginDemirog.png)
+<img src="https://raw.githubusercontent.com/kayamuhammet/javaCamp2022/d1f4de1a975749c8a86334f19525a2d0d7576a5c/week3/hw3-6/Veri_Taban%C4%B1_Tasar%C4%B1m-EnginDemirog.png" width="auto">
+
 

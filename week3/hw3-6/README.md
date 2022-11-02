@@ -1,10 +1,10 @@
-# Veri Tabana Tasarım Dersi
+# Veri Tabanı Tasarım Dersi
 
 ## Homework3-6
 
 
 
-> Veri Tabanı Tasarım [Oynayma Listesi](https://www.youtube.com/playlist?list=PLqG356ExoxZXZQt9edXkCS-_dunCq-bXm)
+> Veri Tabanı Tasarım [Oynatma Listesi](https://www.youtube.com/playlist?list=PLqG356ExoxZXZQt9edXkCS-_dunCq-bXm)
 
 > Gereksinim: ABC Bankası olarak müşterilerimizin takibini yapabilmeliyiz.
 
